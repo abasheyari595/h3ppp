@@ -1,62 +1,59 @@
 {
-  "name": "cutecat",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
+  "name": "كات بالعربي",
+  "description": "@h3ppp بوت تلجرام بسيط مبني علي التيلثون . تم التعريب بواسطة ڤينوم",
   "logo": "https://telegra.ph/file/d7d1fa9378e51c9e35c76.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/abasheyari595/x0ceo",
+  "repository": "https://github.com/abasheyari595/cutecat/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "هـنا ضع اسم حسابك الخاص بالتلي",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
+      "description": "هـنا ضع ايبي ايدي احصل عليه من  :  my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
+      "description": "هـنا ضع ايبي هاش احصل عليه من my.telegram.org",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "هـنا ضع كـود تيرمكس",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنـا ضع توكن بوتك",
       "value": ""
     },
     "ENV": {
-      "description": "لا تغير هذه القيمه",
-      "value": "ANYTHING"
-    },
-    "COMMAND_HAND_LER": {
-      "description": "لا تغير هذه القيمه",
-      "value": "."
-    },
-    "STRING_SESSION": {
-      "description": "هنا ضع كود سيشن تيليثون او بايروجرام كود تيرمكس الخاص بك",
-      "value": "",
+      "description": "لا تغيـرها ابدا",
+      "value": "ANYTHING",
       "required": false
     },
-    "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك الذي صنعته",
-      "value": ""
-    },
     "HEROKU_API_KEY": {
-      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "description": "ايبـي هيروكو احصل عليه من هذا الرابط مطلوبة ! https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق",
+      "description": "اسم التطبيق اول اسم خليته",
       "value": "",
       "required": false
     },
-    "UPSTREAM_REPO_BRANCH": {
-      "description": "لا تغير هذه القيمه",
-      "value": "master"
-  }, 
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "description": "هنـا ضع المنطقه الزمنية الخاص بك  احصل عليه من  http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Africa/Cairo",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "لا تغيـرها ابدا",
+      "value": "https://github.com/abasheyari595/cutecat",
       "required": false
     }
   },
