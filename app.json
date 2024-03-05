@@ -1,5 +1,5 @@
 {
-  "name": "Cutecat",
+  "name": "cutecat",
   "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
   "logo": "https://telegra.ph/file/d7d1fa9378e51c9e35c76.jpg",
   "keywords": [
@@ -50,6 +50,10 @@
       "value": "",
       "required": false
     },
+    "UPSTREAM_REPO_BRANCH": {
+      "description": "لا تغير هذه القيمه",
+      "value": "master"
+  }, 
     "TZ": {
       "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Africa/Cairo",
